@@ -1,0 +1,100 @@
+{
+  "content": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello"],
+      "responses": ["Hello, how can I help you?", "Hi, how can I help you?", "Hi there, how can I help you?"]
+    }, 
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later", "Have a nice day", "Goodbye! Come back again"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Great"],
+      "responses": ["Happy to help!", "Anytime!", "My pleasure", "You're most welcome!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Who you are?"],
+  "responses": ["I am Joana, your personal AI assistant, here to assist you.", "I'm Joana, an advanced Artificial Intelligence designed to help you."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "What should I call you?", "What's your name?"],
+      "responses": ["You can call me Joana.", "I'm Joana!", "Just call me Joana."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Could you help me?", "Give me a hand, please.", "Can you help?", "What can you do for me?", "I need support.", "I need help.", "Support me, please."],
+      "responses": ["Tell me how I can assist you.", "Tell me your problem to assist you.", "Yes, sure. How can I support you?"]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": ["I need to create a new account.", "How to open a new account.", "I want to create an account.", "Can you create an account for me?", "How to open a new account?"],
+      "responses": ["You can easily create a new account on our website.", "Just go to our website and follow the guidelines to create a new account."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I have a complaint.", "I want to raise a complaint.", "There is a complaint about a service."],
+      "responses": ["Please provide us with your complaint so we can assist you.", "Please mention your complaint; we will reach out to you, and we're sorry for any inconvenience caused."]
+    },
+    {
+      "tag": "orderstatus",
+      "patterns": ["Check my order status", "Where is my package?", "Track my order"],
+      "responses": ["Sure, please provide your order number.", "I can help you with that. Please provide your order details."]
+    },
+    {
+      "tag": "productinfo",
+      "patterns": ["Tell me about ... ", "Product details for ...", "What can you tell me about ...?"],
+      "responses": ["Here are the details for [product name].", "I can provide information about [product name]."]
+    },
+    {
+      "tag": "billing",
+      "patterns": ["I have a billing question", "Billing issue", "Charge on my account"],
+      "responses": ["I'm here to assist with your billing inquiries. Please provide more details.", "Let's resolve your billing issue. Please describe it."]
+    },
+    {
+      "tag": "techsupport",
+      "patterns": ["I need technical assistance", "Tech problem", "Help with [specific technical issue]"],
+      "responses": ["I'm here to help with technical issues. Please describe the problem.", "Let's troubleshoot your technical problem together."]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I have feedback", "I want to provide feedback", "Suggestions for improvement"],
+      "responses": ["We appreciate your feedback! Please share your thoughts.", "Your feedback is valuable. Let us know how we can improve."]
+    },
+    {
+      "tag": "faq",
+      "patterns": ["Frequently asked questions", "FAQs", "Can you answer a common question?"],
+      "responses": ["Sure, I can help with frequently asked questions. Please ask your question.", "I can provide answers to common questions. What do you need to know?"]
+    },
+    {
+      "tag": "appointments",
+      "patterns": ["Schedule an appointment", "Book a meeting", "Set up a consultation"],
+      "responses": ["Let's schedule an appointment. When would you like to meet?", "I can assist with appointment scheduling. Please provide details."]
+    },
+    {
+      "tag": "accountrecovery",
+      "patterns": ["Forgot my password", "Can't access my account", "Reset my password"],
+      "responses": ["I can help you recover your account. Please provide your email or username.", "Let's get your account access issue resolved. What's your username?"]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["When will my order arrive?", "Shipping information", "Delivery time"],
+      "responses": ["I can check the status of your delivery. Please provide your order details.", "Let's find out when your order will be delivered."]
+    },
+    {
+      "tag": "productrecommendation",
+      "patterns": ["Can you suggest a product?", "Recommend a gift", "What should I buy?"],
+      "responses": ["Certainly! I can recommend products based on your preferences. Please tell me more about your interests.", "I'd be happy to suggest a product. What are you looking for?"]
+    },
+     {
+      "tag": "not found",
+      "patterns": ["not found", "no information", "no results"],
+      "responses": ["I couldn't find any information related to your query. Please provide more details or try a different question.", "I'm sorry, but I couldn't locate any relevant information. Can you be more specific or ask another question?"]
+}
+     
+  ]
+}
